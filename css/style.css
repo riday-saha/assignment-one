@@ -27,6 +27,11 @@ p {
 }
 
 /* shared style */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 .primary-color {
   color: #4e47ff;
 }
@@ -69,13 +74,17 @@ p {
   border: none;
   border-radius: 10px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .text-center {
   text-align: center;
 }
 
-/* body */
+/* main */
+main {
+  background-color: #f5f8ff;
+}
 
 /* header */
 .header {
@@ -83,6 +92,7 @@ p {
   background-repeat: round;
   background-size: cover;
   position: relative;
+  z-index: 1;
 }
 
 .header::before {
@@ -92,11 +102,7 @@ p {
   background: rgba(78, 71, 255, 0.01);
   height: 100%;
   width: 100%;
-}
-
-.header-container {
-  width: 1140px;
-  margin: 0 auto;
+  z-index: -1;
 }
 
 .header-content {
@@ -125,3 +131,5 @@ p {
   font-weight: 700;
   padding-bottom: 35px;
 }
+
+/* action section */

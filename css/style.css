@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.raleway-heading {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter-para {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style */
+.primary-color {
+  color: #4e47ff;
+}
+
+.dark-one {
+  color: #252432;
+}
+
+.dark-two {
+  color: rgba(37, 36, 50, 0.5);
+}
+
+.dark-three {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* bonus point color */
+.dark-four {
+  color: #1e1e1e;
+}
+
+.dark-five {
+  color: #757575;
+}
+
+.dark-six {
+  color: #b3b3b3;
+}
+
+.gray-one {
+  color: 8987A1;
+}
+
+.btn {
+  padding: 12px 36px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #4e47ff;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* body */
+
+/* header */
+.header {
+  background-image: url("../images/Hero-bg.png");
+  background-repeat: round;
+  background-size: cover;
+  position: relative;
+}
+
+.header::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(78, 71, 255, 0.01);
+  height: 100%;
+  width: 100%;
+}
+
+.header-container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.header-content a {
+  text-decoration: none;
+}
+
+.header-content h2 {
+  font-size: 34px;
+  font-weight: 800;
+}
+
+/* banner */
+.banner {
+  padding: 158px 117px;
+}
+
+.banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  padding-bottom: 35px;
+}

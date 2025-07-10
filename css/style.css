@@ -40,11 +40,15 @@ p {
   color: #252432;
 }
 
-.dark-two {
+.dark-one-light {
   color: rgba(37, 36, 50, 0.5);
 }
 
-.dark-three {
+.black {
+  color: #000000;
+}
+
+.black-light {
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -62,7 +66,7 @@ p {
 }
 
 .gray-one {
-  color: 8987A1;
+  color: #8987a1;
 }
 
 .btn {
@@ -75,6 +79,7 @@ p {
   border-radius: 10px;
   text-decoration: none;
   cursor: pointer;
+  display: inline-block;
 }
 
 .text-center {
@@ -133,3 +138,27 @@ main {
 }
 
 /* action section */
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 116px 0;
+  gap: 220px;
+}
+
+.action h3 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 23px;
+}
+
+.action p {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 23px;
+}
+
+.action img {
+  border-radius: 48px;
+}

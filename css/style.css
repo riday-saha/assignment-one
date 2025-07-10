@@ -79,11 +79,18 @@ p {
   font-weight: 700;
   color: #ffffff;
   background-color: #4e47ff;
-  border: none;
   border-radius: 10px;
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
+  border: 1px solid #4e47ff;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #4e47ff;
+  border: 1px solid #4e47ff;
 }
 
 .text-center {
